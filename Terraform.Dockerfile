@@ -1,3 +1,6 @@
+# Source: Terraform Cookbook Chapter 1
+# Updates: 4/21/2022 Terraform Release Number to 1.1.9
+
 FROM golang:latest
 ENV TERRAFORM_VERSION=1.1.9
 RUN apt-get update && apt-get install unzip \
